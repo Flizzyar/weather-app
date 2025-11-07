@@ -1,0 +1,70 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7a6f9b;
+    min-height: 100vh;
+}
+h1 {
+    text-shadow: 2px 2px 5px rgba(118, 111, 155, 0.7);
+}
+p {
+    text-shadow: 2px 2px 5px rgba(118, 111, 155, 0.7);
+}
+
+.wrapper {
+    background-color: #d4cdf4;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3rem;
+    text-align: center;
+    color: #685155;
+    box-shadow: 0 0 30px 10px rgba(118, 111, 155, 0.6);
+}
+
+.container {
+    text-align: center;
+}
+
+#searchBtn {
+    background-color: #685155;
+    border-radius: 3rem;
+    padding: 0.5rem 2rem;
+    color: #d4cdf4;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#cityInput {
+    background-color: #685155;
+    border-radius: 3rem;
+    padding: 0.5rem;
+    color: #d4cdf4;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#cityInput::placeholder {
+    color: #d4cdf4;
+}
+
+#cityInput:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(118, 111, 155, 0.5);
+}
+
+#searchBtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(118, 111, 155, 0.5);
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <title>Weather Report</title>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Weather Report</h1>
+            <section class="search-container">
+                <input type="text" id="cityInput" placeholder="Skriv en stad" />
+                <button id="searchBtn">Sök</button>
+            </section>
+            <section class="container">
+                <p id="city"></p>
+                <p id="temperatur"></p>
+                <p id="windSpeed"></p>
+                <p id="time"></p>
+            </section>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
